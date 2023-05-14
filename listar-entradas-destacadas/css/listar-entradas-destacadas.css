@@ -1,0 +1,26 @@
+/* Estilos para la lista de publicaciones destacadas */
+.listar-entradas-destacadas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.listar-entradas-destacadas .entrada-destacada {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.listar-entradas-destacadas .entrada-destacada img {
+  max-width: 100%;
+  height: auto;
+}
+
+.listar-entradas-destacadas .entrada-destacada h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.listar-entradas-destacadas .entrada-destacada p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
