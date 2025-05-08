@@ -1,0 +1,14 @@
+.type-item {
+  background: #eef;
+  padding: 4px 8px;
+  margin: 3px;
+  border-radius: 4px;
+  display: inline-block;
+}
+#paths-table input { width: 100%; box-sizing: border-box; }
+.remove-path, .remove-type {
+  background: none;
+  border: none;
+  color: #a00;
+  cursor: pointer;
+}
